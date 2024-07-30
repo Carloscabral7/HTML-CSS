@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+          color: darkblue;
+          text-decoration: none;  
+        }
+        a:visited{
+            color:lightblue;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:focus{
+            color: yellow;
+        }
+        a::after{
+            content: '←' ' [link]';
+        }
+        a::before{
+            content: '→';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/carloscabral7/" target="_blank" >meu linkedin</a></li>
+        <li><a href="https://github.com/ Carloscabral7"target="_blank" >meu github</a></li>
+        <li><a href="https://www.instagram.com/carlera777/"target="_blank" >meu instagram</a></li>
+    </ul>
+</body>
+</html>

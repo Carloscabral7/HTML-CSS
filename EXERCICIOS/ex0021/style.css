@@ -1,0 +1,70 @@
+@charset "UTF-8";
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+aside {
+    background-color: rgb(179, 179, 179);
+    padding: 1px;
+    border-radius: 3px;
+    width: 200px;
+}
+body {
+    back
+    ground-color: white;
+    width: 600px;
+    
+}
+nav {
+    background-color: rgba(0, 0, 255, 0.932);
+    color: orange;
+    padding: 10px;
+
+}
+h2{
+    color: orangered;
+}
+nav > a {
+    color: orange;
+    text-decoration: none;
+    margin-right: 5px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+footer > p {
+    margin: 0px;
+    padding: 5px;
+}
+header > h1 {
+    color: red;
+}
+section {
+    background-color:
+    padding: 10px;
+}
+article {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
