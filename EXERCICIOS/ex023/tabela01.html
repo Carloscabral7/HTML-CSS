@@ -6,17 +6,31 @@
     <title>tabela simples</title>
     <style>
         table {
+            height: 400px;
             width: 400px;
             border-collapse: collapse;
         }
         .linha1 {
             background-color: lightblue;
         }
-        .dado3{
+        .dado{
             background-color: lightgreen;
         }
         td {
+            text-align: center;
             border: 1px solid black;
+        }
+        .numero {
+            text-align: right;
+        }
+        .esquerda {
+            text-align: left;
+        }
+        .topo {
+            vertical-align: top;
+        }
+        .baixo {
+            vertical-align: bottom;
         }
     </style>
 </head>
@@ -26,26 +40,26 @@
     <table>
         <tr class="linha1">
             <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
+            <td class="topo">B1</td>
+            <td class="topo">C1</td>
             <td>D1</td>
         </tr>
         <tr>
-            <td>A2</td>
-            <td>B2</td>
-            <td>C2</td>
-            <td>D2</td>
+            <td class="esquerda">A2</td>
+            <td class="dado">B2</td>
+            <td class="dado">C2</td>
+            <td class="numero">D2</td>
         </tr>
         <tr>
-            <td>C1</td>
-            <td>C2</td>
-            <td class="dado3">C3</td>
-            <td>C4</td>
+            <td class="esquerda">A3</td>
+            <td class="dado">B3</td>
+            <td class="dado">C3</td>
+            <td class="numero">D3</td>
         </tr>
         <tr>
-            <td>D1</td>
-            <td>D2</td>
-            <td>D3</td>
+            <td>A4</td>
+            <td class="baixo">B4</td>
+            <td class="baixo">C4</td>
             <td>D4</td>
         </tr>
     </table>
