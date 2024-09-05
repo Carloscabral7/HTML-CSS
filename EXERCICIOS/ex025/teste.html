@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário personalizado</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main class="login">
+        <div class="left-login">
+            <h1>Cadastre-se <br> e Descubra o Melhor Da Tecnologia.</h1>
+            <img src="imagens/tech2.svg" class="left-image" alt="animação tech">
+        </div>
+        <div class="right-login">
+            <form class="card-login" action="cadastro-php" method="post">
+                <h1>Login</h1>
+                <div class="text-field">
+                    <label for="inome">Usuário:</label>
+                    <input type="text" name="Nome" id="inome" required maxlength="15" placeholder="Insira seu Usuário">
+                </div>
+                <div class="text-field">
+                    <label for="ipass">Senha:</label>
+                    <input type="password" name="Senha" id="ipass" required maxlength="20" placeholder="Insira sua Senha">
+                </div>
+                <button class="btn" type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
