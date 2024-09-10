@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>outros tipo de input</h1>
+    <form action="cadastro.php">
+        <div class="textfield">
+            <label for="inome">Nome:</label>
+            <input type="text" name="Nome" id="inome" required>
+        </div>
+        <div class="nota">
+            <label for="inota">Nota:</label>
+            <input type="number" name="Nota" id="inota" required min="0" max="10" step="0.1">
+        </div> 
+        <div class="data">
+            <label for="imes">Mês:</label>
+            <input type="month" name="mes" id="imes">
+        </div>
+        <div class="data">
+            <label for="idata">Data:</label>
+            <input type="date" name="data" id="idata">
+        </div>
+        <div class="btn">
+            <button type="submit">
+                enviar
+            </button>
+        </div> 
+    </form>
+    
+</body>
+</html>
