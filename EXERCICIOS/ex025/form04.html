@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 04</title>
+    <style>
+        div{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>dados do usuário</legend>
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="Nome" id="inome" required minlength="5" maxlength="25" placeholder="insira seu nome">
+            </div>
+            <div>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" placeholder="insira seu email">
+            </div>
+            <div>
+                <label for="inumber">Telefone:</label>
+                <input type="tel" name="number" id="inumber" pattern="^\(?\d{2}\)?[\s-]?9?\d{4}-?\d{4}$
+                " placeholder="(xx)xxxxx-xxxx">
+            </div>
+        </fieldset>
+        <div>
+            <button type="submit">enviar</button>
+        </div>
+    </form>
+</body>
+</html>
