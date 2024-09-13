@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-brr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="iest">Estado: </label>
+            <select name="Estado" id="iest">
+                <option value="">---Escolha---</option>
+                <option value="">Acre</option>
+                <option value="">Alagoas</option>
+                <option value="">Amapá</option>
+                <option value="">Amazonas</option>
+                <option value="">Bahia</option>
+                <option value="">Ceará</option>
+                <option value="">Distrito Federal</option>
+                <option value="">Espírito Santo</option>
+                <option value="">goiás</option>
+                <option value="">Maranhão</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Mato Grosso do Sul </option>
+                <option value="">Minas Gerias</option>
+                <option value="">Pará</option>
+                <option value="">Paraíba</option>
+                <option value="">Paraná</option>
+                <option value="">Pernambuco</option>
+                <option value="">Piauí</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Rio Grande do Norte</option>
+                <option value="">Rio Grande do Sul</option>
+                <option value="">Rondônia</option>
+                <option value="">Roraima</option>
+                <option value="">Santa Cataarina</option>
+                <option value="">São Paulo</option>
+                <option value="">Sergipe</option>
+                <option value="">Tocantins</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="ilist">Profissão:</label>
+            <input type="text" name="lista" id="ilist" list="ilista">
+                <datalist id="ilista">
+                    <option value="ADM">Administrador</option>
+                    <option value="PROF">Professor</option>
+                    <option value="DESEN">Desenvolvedor</option>
+                    <option value="CANT">Cantor</option>
+                    <option value=""></option>
+                </datalist>
+        </div>
+
+        <div>
+            <label for="imsg">Informações adicionais:</label><br>
+            <textarea name="mensagem" id="imsg" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">enviar</button>
+            <button type="reset">limpar</button>
+        </div>
+    </form>
+</body>
+</html>
