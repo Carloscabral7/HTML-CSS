@@ -11,6 +11,27 @@
         div{
             padding: 4px;
         }
+        form{
+            display: block;
+            margin: auto;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: lightgreen;
+        }
+        form label{
+
+            font-weight: bold;
+            display: block;
+        }
+        button[type ="submit"]{
+            width: 100%;
+            margin: auto;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid black;
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.274);
+        } 
     </style>
 </head>
 <body>
@@ -18,7 +39,7 @@
     <form action="cadastro.php">
         <div class="textfield">
             <label for="inome">Nome:</label>
-            <input type="text" name="Nome" id="inome" required>
+            <input type="text" name="Nome" id="inome" required placeholder="insira seu nome" minlength="3" maxlength="30">
         </div>
         <div class="nota">
             <label for="inota">Nota:</label>
